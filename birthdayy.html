@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Happy Birthday sweetheart</title>
+
+<style>
+body{
+margin:0;
+font-family:Segoe UI,sans-serif;
+background:radial-gradient(circle,#111,#000);
+color:white;
+text-align:center;
+overflow:hidden;
+}
+
+.flower{
+position:fixed;
+top:-50px;
+font-size:22px;
+animation:fall linear infinite;
+}
+@keyframes fall{
+to{transform:translateY(110vh) rotate(360deg);}
+}
+
+#typing{
+margin-top:60px;
+font-size:42px;
+font-style:italic;
+}
+
+#lamp{font-size:80px;cursor:pointer;margin-top:40px;}
+#cakeArea{display:none;margin-top:40px;}
+#cake{font-size:120px;}
+#candle{
+font-size:50px;
+cursor:pointer;
+animation:glow 1s infinite alternate;
+}
+@keyframes glow{
+from{filter:drop-shadow(0 0 5px yellow);}
+to{filter:drop-shadow(0 0 20px orange);}
+}
+
+#gift{display:none;font-size:60px;cursor:pointer;}
+#finalMsg{display:none;margin:20px;font-size:22px;}
+
+.firework{
+position:fixed;
+width:6px;
+height:6px;
+border-radius:50%;
+animation:boom 1s linear forwards;
+}
+@keyframes boom{
+to{transform:translate(var(--x),var(--y));opacity:0;}
+}
+
+/* MEMORY */
+#memoryPage{
+display:none;
+padding:30px;
+}
+
+.page{
+display:none;
+}
+
+.box{
+width:320px;
+min-height:210px;
+background:white;
+color:black;
+margin:25px;
+display:inline-block;
+border-radius:18px;
+padding:20px;
+padding-top:80px;
+padding-right:90px;   /* extra space for photo */
+position:relative;
+box-shadow:0 0 18px rgba(255,105,180,.6);
+vertical-align:top;
+}
+
+
+.box img{
+width:120px;
+height:170px;
+object-fit:cover;
+position:absolute;
+top:-45px;
+right:-40px;
+transform:rotate(-10deg);
+border:6px solid #fff;
+background:#fff;
+box-shadow:0 10px 22px rgba(0,0,0,.45);
+border-radius:8px;
+}
+
+.msg{
+font-size:14px;
+line-height:1.7;
+text-align:left;
+word-wrap:break-word;
+}
+
+</style>
+</head>
+
+<body>
+
+<div id="typing"></div>
+
+<div id="lamp">💡</div>
+<p id="lampText">Hey! Mr. Artist, Light up ur day by clicking on this lamp</p>
+
+<div id="cakeArea">
+<div id="cake">🎂</div>
+<div id="candle">🕯️</div>
+<p id="blowText">Blow or tap the candle 💨</p>
+</div>
+
+<div id="finalMsg">
+Wishing you a very very happy birthday as bright and warm as your amazing heart ✨
+</div>
+
+<div id="gift">🎁</div>
+
+<div id="memoryPage">
+
+<h2>💖 Your Memory Boxes 💖</h2>
+
+<!-- PAGE 1 -->
+<div class="page">
+<div class="box">
+<img src="pic1.jpeg">
+<div class="msg">
+From one year to another, I just want life to keep moving like this — you and me, still holding hands, still choosing each other, till we’re old and grumpy  💖
+</div>
+</div>
+
+<div class="box">
+<img src="pic2.jpeg">
+<div class="msg">I love you, sweetheart. After everything I said, all our memories kept coming back to me. It reminded me how important you are to me. I promise I’ll use my mind and heart properly and protect what we have between us.Something cute, funny, emotional — whatever feels right, I want to spend this day with you in each and every year!!✨</div>
+</div>
+
+<div class="box">
+<img src="pic3.jpeg">
+<div class="msg">I need to say something calmly. When I said I want to break up, I wasn’t thinking properly. I was hurt and angry, not serious about leaving you. I care about you, and I don’t want us to end like this because of all those bad arguments. I just didn’t able express myself rightly...sorry again</div>
+</div>
+</div>
+
+<!-- PAGE 2 -->
+<div class="page">
+<div class="box">
+<img src="pic4.jpeg">
+<div class="msg">That hug wasn’t just closeness — it was two hearts quietly promising to stay.</div>
+</div>
+
+<div class="box">
+<img src="pic5.jpeg">
+<div class="msg">In that hug from behind, I felt protected, trusted, and calm — like no matter what comes, I have someone quietly standing with me. 💕</div>
+</div>
+
+<div class="box">
+<img src="pic6.jpeg">
+<div class="msg">Somewhere between doing nothing and everything, I just love thinking about you in a hundred tiny ways.</div>
+</div>
+</div>
+
+<!-- PAGE 3 -->
+<div class="page">
+ <div class="box">
+   <img src="pic7.jpeg">
+   <div class="msg">This is the place we actually met and now this is the place I MISS U THE MOST! 💖</div>
+ </div>
+
+  <div class="box">
+    <img src="pic8.jpeg">
+    <div class="msg">I want to live from this to...... </div>
+  </div>
+
+  <div class="box">
+    <img src="pic9.jpeg">
+    <div class="msg">this life...</div>
+  </div>
+</div>
+
+
+<!-- PAGE 4 -->
+<div class="page">
+  <div class="box">
+    <img src="pic10.jpeg">
+    <div class="msg">I want to enjoy meal before....</div>
+  </div>
+
+  <div class="box">
+    <img src="pic11.jpeg">
+    <div class="msg">and after with you just with you✨</div>
+  </div>
+
+  <div class="box">
+    <img src="pic12.jpeg">
+    <div class="msg">I am jealous to share you with anyone else....so glti ek bar hui hai ik..but yeh kabhi nah hogi aur..mei apko kisi aur se share nhi kr sakti..</div>
+  </div>
+</div>
+
+
+<!-- PAGE 5 -->
+<div class="page">
+  <div class="box">
+    <img src="pic13.jpeg">
+    <div class="msg">I LOVE YOU BUBBAHHHH MUAWAAAAA💖</div>
+  </div>
+
+  <div class="box">
+    <img src="pic14.jpeg">
+    <div class="msg">Will you hold my hand like this forever?</div>
+  </div>
+
+
+
+</div>
+
+<script>
+const typing = document.getElementById("typing");
+const lamp = document.getElementById("lamp");
+const lampText = document.getElementById("lampText");
+const cakeArea = document.getElementById("cakeArea");
+const candle = document.getElementById("candle");
+const blowText = document.getElementById("blowText");
+const finalMsg = document.getElementById("finalMsg");
+const gift = document.getElementById("gift");
+const memoryPage = document.getElementById("memoryPage");
+
+const text = "Happy Birthday 🎉";
+let i = 0;
+function type(){
+if(i < text.length){
+typing.innerHTML += text.charAt(i);
+i++;
+setTimeout(type,120);
+}
+}
+type();
+
+for(let i=0;i<25;i++){
+let f=document.createElement("div");
+f.className="flower";
+f.innerHTML="🌹";
+f.style.left=Math.random()*100+"vw";
+f.style.animationDuration=3+Math.random()*5+"s";
+document.body.appendChild(f);
+}
+
+lamp.onclick = ()=>{
+cakeArea.style.display="block";
+lamp.style.display="none";
+lampText.style.display="none";
+};
+
+let blown=false;
+candle.onclick=()=>{
+if(!blown){
+blown=true;
+blowOut();
+}
+};
+
+function blowOut(){
+candle.innerHTML="💨";
+blowText.style.display="none";
+fireworks();
+setTimeout(()=>{
+finalMsg.style.display="block";
+gift.style.display="block";
+},1200);
+}
+
+function fireworks(){
+for(let i=0;i<40;i++){
+let p=document.createElement("div");
+p.className="firework";
+p.style.left="50vw";
+p.style.top="50vh";
+p.style.background="hsl("+Math.random()*360+"deg,100%,50%)";
+p.style.setProperty("--x",(Math.random()*400-200)+"px");
+p.style.setProperty("--y",(Math.random()*400-200)+"px");
+document.body.appendChild(p);
+setTimeout(()=>p.remove(),1000);
+}
+}
+
+let currentPage=0;
+
+gift.onclick = ()=>{
+document.body.innerHTML = memoryPage.innerHTML;
+showPage();
+document.body.onclick = nextPage;
+};
+
+function showPage(){
+let pages=document.querySelectorAll(".page");
+pages.forEach(p=>p.style.display="none");
+if(pages[currentPage]){
+pages[currentPage].style.display="block";
+}else{
+document.body.innerHTML = `
+<div style="
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:26px;
+text-align:center;
+padding:30px;">
+💖 Thanku for being till the end and sorry for all the mistakes and even for all the behaviors 💖
+</div>`;
+
+}
+}
+
+function nextPage(){
+currentPage++;
+showPage();
+}
+</script>
+
+</body>
+</html>
